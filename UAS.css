@@ -1,0 +1,466 @@
+		body{
+			background-color: #fff;
+			margin: 0px;
+		} 
+		html{
+			scroll-behavior: smooth;
+		}
+		#container{
+			color: #fff;
+			font-size: 30px;
+			text-align: center;
+			width: 799px;
+			margin: auto;
+		}
+
+
+
+		/*BANNER*/
+		#header{
+			height: 375px;
+			background-color: grey;
+			background-image: url("media/TZoelf-Official.png");
+			background-size: 100% 100%;
+			padding-top: 30px;
+		}
+		#header1{
+			height: 375px;
+			background-color: grey;
+			background-image: url("media/TZ1.png");
+			background-size: 100% 100%;
+			padding-top: 30px;
+		}
+		#header2{
+			height: 375px;
+			background-color: grey;
+			background-image: url("media/TZ2.png");
+			background-size: 100% 100%;
+			padding-top: 30px;
+		}
+		#header3{
+			height: 375px;
+			background-color: grey;
+			background-image: url("media/TZ3.png");
+			background-size: 100% 100%;
+			padding-top: 30px;
+		}
+		#header4{
+			height: 375px;
+			background-color: grey;
+			background-image: url("media/TZ4.png");
+			background-size: 100% 100%;
+			padding-top: 30px;
+		}
+
+
+        /*NAVIGASI*/
+	    #navigasi{
+			height: 80px;
+			background-image: url("media/gradasi.jpeg");
+			font-size: 20px;
+			text-align: left;
+			padding-top: 50px;
+		}
+		#navigasi1{
+			height: 80px;
+			background-image: url("media/gradasi1.png");
+			font-size: 20px;
+			text-align: left;
+			padding-top: 50px;
+		}
+		#navigasi2{
+			height: 80px;
+			background-image: url("media/gradasi2.png");
+			font-size: 20px;
+			text-align: left;
+			padding-top: 50px;
+		}
+		#navigasi3{
+			height: 80px;
+			background-image: url("media/gradasi3.png");
+			font-size: 20px;
+			text-align: left;
+			padding-top: 50px;
+		}
+		#navigasi4{
+			height: 80px;
+			background-image: url("media/gradasi4.png");
+			font-size: 20px;
+			text-align: left;
+			padding-top: 50px;
+		}
+
+
+		/*CONTENT*/
+		#content{
+			height: 1450px;
+			width: 75%;
+			background-color: black;
+			float: left;
+		}
+		#content1{
+			height: 1000px;
+			width: 99,9%;
+			background-color: black;
+			float: left;
+			padding: 20px;
+		}
+		#content p{
+			font-size: 18px;
+			text-align: justify;
+			padding: 4px 12px 4px 12px;
+		}
+		#content-product{
+			margin-top: -1px;
+			height: 500px;
+			width: 100%;
+			background-color: black;
+		}
+		#content-product-S{
+			margin-top: -1px;
+			height: 2100px;
+			width: 100%;
+			background-color: black;
+		}
+		#content-product-B{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			margin-top: -1px;
+			height: 550px;
+			width: 100%;
+			background-color: black;
+		}
+		#content-product1{
+			margin-top: -1px;
+			height: 3000px;
+			width: 100%;
+			background-color: black;
+		}
+
+
+
+		/*SIDEBAR*/
+		#sidebar{
+			height: 1450px;
+			width: 25%;
+			background-image: url("media/bg sidebar5.5.png");
+			background-size: 100%;
+			float: right;
+			padding-left: 2px;
+			padding-bottom: 1px;
+			margin: -1px;
+		}
+		#sidebar p{
+			font-size: 10px;
+			text-align: justify;
+			padding: 5px 15px 5px 15px;
+			padding-top: 10px;
+		}
+		#content img{
+			float: left;
+			margin-right: 20px;
+			margin-left: 15px;
+		    margin-top: 20px;
+
+		}
+		img{
+		    width: 200px;
+		    height: 200px;
+		}
+		#content .gambarkiri{
+			float: left;
+			margin-right: 15px;
+			margin-top: 5px;
+			
+		}
+		#content1 .gambarkiri1{
+			float: left;
+			margin-right: 15px;
+			margin-top: 5px;
+			
+		}
+		#content .gambarkiri1{
+			float: left;
+			margin-right: 15px;
+			margin-top: 5px;
+			border-color: white;
+			border: 10px;
+			
+		}
+		#content .gambarkanan{
+			float: right;
+			margin-right: 5px;
+		}
+		#sidebar .gameonline{
+			margin-top: 520px;
+			width: 170px;
+			height: 170px;
+		}
+		h2{
+			font-size: 30px;
+			text-align: left;
+			padding-left: 20px;
+		}
+		#footer{
+			height: 50px;
+			background-color: orange;
+			clear: both;
+			padding-top: 20px;
+			padding-bottom:20px
+		}
+		#footer p{
+			color: black;
+			text-align: center;
+			font-size: 18px;
+		}
+        /* Gaya dasar untuk tombol */
+        .tombol{
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 2px solid black;
+            border-radius: 5px;
+            color: #3498db;
+            background-color: black;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        /* Gaya saat mouse hover */
+        .tombol:hover {
+            background-color: orange;
+            color: red;
+            text-shadow: darkred;
+        }
+        .tombol1{
+        	margin-right: 100px;
+        	margin: 10px;
+        	float: none;
+            display: inline-block;
+            padding: 2px 10px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 2px solid black;
+            border-radius: 5px;
+            color: #3498db;
+            background-color: black;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 16px;
+        }
+        .tombol1:hover {
+            background-color: #02D9CF;
+            color: red;
+            text-shadow: darkred;
+        }
+        .product-diamond{
+        	float: right;
+        	width: 40px;
+        	height: 40px;
+        }
+        /* Gaya untuk kotak round */
+        .kotak-product {
+        	justify-content: right;
+        	height: 100vh; /* Tinggi 100% dari viewport */
+        	display: flex;
+        	margin-right: 90px;
+            margin-left: 60px;
+            margin-top: 20px;
+            width: 200px;
+            height: 300px;
+            background-color: #f0f0f0;
+            /*background: linear-gradient(to right, dodgerblue, orange);*/
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            float: right;
+            cursor: pointer;
+            transition: background-color 0.9s, color 0.3s;
+            
+           
+        }
+        .kotak-product:hover {
+            background: linear-gradient(to right, #FF8A4D, #E5A20F, #E05B65, #003A83);
+            color: red;
+            text-shadow: darkred;
+
+
+        }
+        .kotak-product1 {
+        	justify-content: center;
+        	margin-right: 90px;
+            margin-left: 60px;
+            margin-top: 20px;
+            width: 200px;
+            height: 400px;
+            background-color: #f0f0f0;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            float: right;
+            cursor: pointer;
+            transition: background-color 0.9s, color 0.3s;
+        }
+        .kotak-product1:hover {
+            background: linear-gradient(to right, #FF8A4D, #E5A20F, #8AE073, #02D9CF);
+            color: red;
+            text-shadow: darkred;
+        }
+        .kotak-product5 {
+        	justify-content: center;
+        	margin-right: 90px;
+            margin-left: 60px;
+            margin-top: 20px;
+            width: 200px;
+            height: 400px;
+            background-color: #f0f0f0;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            float: right;
+            cursor: pointer;
+            transition: background-color 0.9s, color 0.3s;
+        }
+        .kotak-product5:hover {
+            background: linear-gradient(to right, #FF8A4D, #E5A20F, #8AE073, #02D9CF);
+            color: red;
+            text-shadow: darkred;
+        }
+        .kotak-product2 {
+        	display: flex;
+            width: 700px;
+            height: 300px;
+            background-color: #f0f0f0;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            margin-left: 30px;
+        }
+        .kotak-gambarML{
+        	height: 50%;
+        	width: 50%;
+        	color: black;
+        }
+        .kotak-diamond{
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        	
+
+        }
+        /* Gaya untuk gambar di dalam kotak */
+        .gambar-ML {
+            height: auto;
+            border-radius: 15px;
+            margin-left: 100px;
+            margin-right: -125px;
+        }
+        .gambar-ML1 {
+            margin-top: 60px;
+        	width: 250%;
+            height: 60%;
+            border-radius: 15px;
+            float: left;
+        }
+        /* Gaya untuk tulisan di bawah kotak */
+        .tulisan {
+        	margin-right: 66px;
+            padding-top: 200px;
+            font-size: 20px;
+            color: black;
+            margin-bottom: 50px;
+            text-decoration: none;
+
+        }
+        .tulisan:hover{
+        	text-decoration: underline;
+        }
+        .tulisan1 {
+        	margin-bottom: -20px;
+            padding-bottom: 20px;
+            font-size: 15px;
+            color: black;
+        }
+        .gambar-hero {
+            height: auto;
+            border-radius: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 1px;
+        }
+
+        .kotak-image {
+            flex: 1;
+            width: 50%;
+            height: 50%;
+            float: left;
+        }
+
+        .kotak-diamond1 {
+        	/*display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;*/
+            
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+        	box-sizing: border-box;
+        	height: 15px;
+           
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #282c34;
+        }
+
+        .jam {
+        /*font-size: 4em;*/
+         font-size: 36px;
+         text-align: center;
+         margin-top: 50px;
+
+    
+         }
+         .hari{
+	     font-size: 24px;
+         text-align: center;
+
+	
+         }
+         .gambarwa{
+         	width: 100px;
+         	height: 100px;
+         	float: left;
+         }
+         .gambarig{
+         	width: 100px;
+         	height: 100px;
+         	float: left;
+         }
+         #date-time {
+            font-size: 20px;
+            margin-top: 20px;
+            color: white;
+         }
+        
+
+
+
+
+
+
+            

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>DESIGN LAYOUT</title>
+     <style type="text/css">
+        body{
+            font-size: 16px;
+            font-weight: bold;
+
+        }
+        .bungkus{
+        	  margin-top: 20px;
+        	  /*background-color: blue;*/
+            width: 500px;
+            margin: auto;
+            border: 1px solid #ddd;
+            padding: 15px 20px;
+            
+        }
+        .bungkus1{
+        	margin: auto;
+        	/*background-color: red;*/
+        }
+        input, select{
+            width: 100%;
+            background-color: limegreen;
+            padding: 10px 15px;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            box-sizing: border-box;
+        }
+        .submit{
+            margin-top: 10px;
+            width: 100px;
+            cursor: pointer;
+            background-color: red;
+
+        }
+        .text-form{
+        	font-size: 15px;
+        	font-family: arial;
+        	color: white;
+        	text-align: left;
+        }
+        h3{
+            text-align: center;
+        }
+
+     </style>
+	 <link rel="stylesheet" type="text/css" href="style.css">
+<body vlink="black" link="black">
+<div id="container">
+	<div id="header4"></div>
+	<div id="navigasi4">
+	<body>
+    <!-- Tombol dengan class "tombol" -->
+    <a href="index.html" class="tombol">HOME</a>
+		<a href="product-project.html" class="tombol"> PRODUCT</a>
+		<a href="product-gallery.html" class="tombol"> GALLERY</a>
+		<a href="product-beli.html" class="tombol"> SHOPP</a>
+		<a href="#" class="tombol"> PEMBELIAN</a>
+		<a href="about.html" class="tombol">ABOUT US</a>
+	</div>
+	<div>
+</head>
+	<div id="content-product-B">
+    <div class="bungkus">
+    	<div class="bungkus1">
+        <h3>FORM Pembelian</h3>
+    <form>
+    <label class="text-form">Email</label><input type="text" name="nm" placeholder="Masukkan Email Anda">
+    <label class="text-form">ID</label><input type="text" name="nm" placeholder="Masukkan ID Anda">
+    <label class="text-form">Server</label><input type="text" name="nm" placeholder="Masukkan Server Anda">
+    <label class="text-form">Metode Pembayaran</label> 
+       <select>
+           <option class="text-form">-- Pilih Metode Pembayaran --</option>
+           <option class="text-form">Dana</option>
+           <option class="text-form">Shopee Pay</option>
+           <option class="text-form">OVO</option>
+           <option class="text-form">Transfer Bank</option>
+       </select>
+       <input type="submit" name="submit" value="simpan" class="submit">
+    </form><br><br>
+    </div>
+    </div>
+<div id="footer">
+		<p>&copy; CopyRight 2023 Zulfan Farikh Rizano 231011700464</p>
+	</div>
+</div>

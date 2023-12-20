@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+}
+h1{font-size: 30px; text-align: center; color: red;}
+    	p{
+    		font-size: 18px;
+    		text-align: justify;
+    		color: orange;
+    		font-family: verdana, arial;
+    	}
+    	.warna{
+    		color: cyan;
+    	}
